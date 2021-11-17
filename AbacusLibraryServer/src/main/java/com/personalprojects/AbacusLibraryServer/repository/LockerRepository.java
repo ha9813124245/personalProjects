@@ -21,5 +21,6 @@ public interface LockerRepository extends JpaRepository<LockerEntity, Integer> {
 	
 	@Query("select l from LockerEntity l where l.studentId is null")
 	Set<LockerEntity> findFreeLockers();
-	
+	//comment
+
 }
