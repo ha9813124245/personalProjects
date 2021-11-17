@@ -33,6 +33,7 @@ public class AbacusController {
 		Set<LockerEntity> freeLockers=abacusService.findFreeLockers();
 		return new ResponseEntity<>(freeLockers, HttpStatus.FOUND);
 	}
+// comment 
 	
 //	one time run
 //	@GetMapping("/locker/savealllockers")
